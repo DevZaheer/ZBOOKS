@@ -71,7 +71,7 @@ ZBOOKS/
 │   └── Program.cs       # Application configuration,
 │                        # dependency injection and authentication
 │
-└── frontend/
+└── Frontend/
     └── src/
         ├── api/         # API client and resource calls
         ├── components/  # Reusable UI components
@@ -167,7 +167,7 @@ You can test the endpoints with the requests in `Backend/ZBooksApi.http`.
 Open a second terminal:
 
 ```bash
-cd frontend
+cd Frontend
 npm install
 npm run dev
 ```
