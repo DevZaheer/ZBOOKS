@@ -1,0 +1,6 @@
+@ZBooksApi_HostAddress = http://localhost:5251
+
+GET {{ZBooksApi_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

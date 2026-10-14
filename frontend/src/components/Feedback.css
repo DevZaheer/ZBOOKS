@@ -1,0 +1,9 @@
+.loading-state { display: flex; align-items: center; justify-content: center; gap: 12px; min-height: 170px; color: var(--muted); font-size: 13px; }
+.spinner { width: 21px; height: 21px; border: 2px solid var(--line); border-top-color: var(--coral); border-radius: 50%; animation: spin .8s linear infinite; }
+@keyframes spin { to { transform: rotate(360deg); } }
+.error-state { display: flex; align-items: center; justify-content: space-between; gap: 22px; min-height: 120px; padding: 22px; border-left: 3px solid var(--coral); background: #fff5f1; color: #8c3928; }
+.error-state p { margin: 0; font-size: 13px; line-height: 1.5; }
+.empty-state { display: flex; flex-direction: column; align-items: flex-start; min-height: 180px; justify-content: center; padding: 28px; border: 1px solid var(--line); background: var(--surface); }
+.empty-rule { width: 28px; height: 3px; margin-bottom: 15px; background: var(--coral); }
+.empty-state h3 { margin: 0 0 7px; font: 400 23px var(--serif); }
+.empty-state p { margin: 0 0 18px; color: var(--muted); font-size: 13px; line-height: 1.55; }

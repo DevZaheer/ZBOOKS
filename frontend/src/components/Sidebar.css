@@ -1,0 +1,11 @@
+.sidebar { display: flex; flex-direction: column; align-items: stretch; gap: 4px; padding: 42px 22px; border-right: 1px solid var(--line); background: #f1f0e9; }
+.sidebar > a { padding: 11px 13px; border-radius: 3px; color: #65716b; font-size: 13px; transition: background .18s ease, color .18s ease; }
+.sidebar > a:hover { background: rgb(255 255 255 / 65%); color: var(--forest); }
+.sidebar > a.active { background: #fffefa; color: var(--forest-dark); font-weight: 700; box-shadow: 0 2px 8px rgb(38 54 49 / 5%); }
+.nav-label { margin: 0 0 8px 12px; color: #939890; font-size: 9px; font-weight: 700; letter-spacing: 1.5px; text-transform: uppercase; }
+.nav-label-spaced { margin-top: 27px; }
+.sidebar-note { margin: auto 8px 0; padding: 19px 0 0; border-top: 1px solid #d9d9d1; }
+.sidebar-note span { color: var(--coral); font-size: 9px; font-weight: 700; letter-spacing: 1.2px; }
+.sidebar-note p { max-width: 150px; color: #64716a; font: italic 16px/1.4 var(--serif); }
+.nav-scrim { display: none; }
+@media (max-width: 800px) { .sidebar { position: fixed; z-index: 30; top: 64px; bottom: 0; left: 0; width: min(290px, 82vw); padding: 26px 20px; transform: translateX(-102%); transition: transform .22s ease; box-shadow: 15px 10px 35px rgb(38 54 49 / 12%); } .sidebar.sidebar-open { transform: translateX(0); } .nav-scrim { position: fixed; z-index: 25; inset: 64px 0 0; display: block; border: 0; background: rgb(26 40 35 / 35%); } }

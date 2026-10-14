@@ -1,0 +1,5 @@
+.search-field { display: flex; align-items: center; gap: 10px; min-width: 240px; min-height: 44px; padding: 0 12px; border: 1px solid var(--line); border-radius: 3px; background: var(--surface); }
+.search-field > span { color: var(--forest); font-size: 22px; line-height: 1; }
+.search-field input { width: 100%; min-width: 0; border: 0; outline: 0; background: transparent; color: var(--ink); font-size: 12px; }
+.search-field input::placeholder { color: #939a95; }
+.search-field button { padding: 2px 5px; border: 0; background: transparent; color: var(--muted); font-size: 18px; cursor: pointer; }

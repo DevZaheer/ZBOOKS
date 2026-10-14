@@ -1,0 +1,15 @@
+.payment-page .page-heading { margin-bottom: 24px; }
+.payment-layout { display: grid; grid-template-columns: minmax(0, 1fr) 320px; align-items: start; gap: 40px; }
+.payment-form { display: grid; gap: 19px; padding: 27px; border: 1px solid var(--line); background: var(--surface); }
+.payment-form h2 { margin: 0 0 3px; font: 400 25px var(--serif); }
+.payment-order .eyebrow { margin-bottom: 20px; }
+.payment-books { display: grid; gap: 14px; margin-bottom: 21px; }
+.payment-book { display: flex; align-items: center; gap: 14px; margin-bottom: 21px; }
+.payment-books .payment-book { margin-bottom: 0; }
+.payment-book .cart-thumb { width: 52px; }
+.payment-book > div:last-child { display: grid; gap: 6px; }
+.payment-book strong { font: 400 16px var(--serif); }
+.payment-book span { color: var(--muted); font-size: 10px; }
+.payment-order .summary-total { display: flex; justify-content: space-between; margin: 0; font-size: 12px; }
+@media (max-width: 740px) { .payment-layout { grid-template-columns: 1fr; gap: 18px; } }
+@media (max-width: 430px) { .payment-form { padding: 20px; } }

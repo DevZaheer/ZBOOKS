@@ -1,0 +1,4 @@
+.star-rating { display: inline-flex; gap: 2px; color: #d5d4cd; font-size: 14px; line-height: 1; }
+.star.is-filled { color: var(--gold); }
+.star-rating-editable { gap: 5px; }
+.star-rating-editable .star { padding: 0; border: 0; background: transparent; font-size: 24px; cursor: pointer; }

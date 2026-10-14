@@ -1,0 +1,6 @@
+.review-list { display: grid; gap: 0; }
+.review-item { padding: 18px 0; border-bottom: 1px solid var(--line); }
+.review-meta { display: flex; align-items: center; justify-content: space-between; gap: 12px; margin-bottom: 8px; }
+.review-meta strong { font-size: 12px; }
+.review-meta time { color: var(--muted); font-size: 10px; }
+.review-item p { margin: 10px 0 0; color: #58645e; font-size: 13px; line-height: 1.65; }

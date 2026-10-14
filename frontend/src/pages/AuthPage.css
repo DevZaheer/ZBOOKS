@@ -1,0 +1,21 @@
+.auth-page { display: grid; grid-template-columns: .8fr 1fr; max-width: 900px; min-height: 520px; margin: 14px auto; border: 1px solid var(--line); background: var(--surface); box-shadow: var(--shadow); }
+.auth-aside { position: relative; display: flex; flex-direction: column; justify-content: space-between; overflow: hidden; padding: 37px; background: #dce9e2; }
+.auth-aside::after { position: absolute; right: -60px; bottom: -80px; width: 280px; height: 360px; border: 1px solid rgb(32 88 76 / 25%); border-radius: 50%; content: ''; transform: rotate(-24deg); }
+.auth-aside-register { background: #f0dfd5; }
+.auth-aside-register::after { border-color: rgb(213 104 76 / 33%); }
+.auth-monogram { color: var(--forest); font: 130px/.8 var(--serif); }
+.auth-aside-register .auth-monogram { color: var(--coral); }
+.auth-aside > p { position: relative; z-index: 1; max-width: 230px; margin: 0; font: italic 29px/1.1 var(--serif); }
+.auth-panel { align-self: center; padding: 48px clamp(28px, 6vw, 62px); }
+.auth-panel h1 { font-size: 38px; }
+.auth-subtitle { margin: 11px 0 28px; color: var(--muted); font-size: 12px; }
+.auth-panel form { display: grid; gap: 17px; }
+.password-input { position: relative; }
+.password-input input { padding-right: 46px; }
+.password-toggle { position: absolute; top: 50%; right: 8px; display: grid; width: 32px; height: 32px; place-items: center; padding: 6px; transform: translateY(-50%); border: 0; border-radius: 3px; background: transparent; color: var(--muted); cursor: pointer; }
+.password-toggle:hover { background: var(--sky); color: var(--forest); }
+.password-toggle:focus-visible { outline: 2px solid var(--forest); outline-offset: 1px; }
+.password-toggle svg { width: 18px; height: 18px; fill: none; stroke: currentColor; stroke-linecap: round; stroke-linejoin: round; stroke-width: 1.7; }
+.auth-switch { margin: 21px 0 0; color: var(--muted); font-size: 11px; }
+.auth-switch a { color: var(--forest); font-weight: 700; text-decoration: underline; text-underline-offset: 3px; }
+@media (max-width: 700px) { .auth-page { grid-template-columns: 1fr; min-height: auto; margin: 0; } .auth-aside { min-height: 155px; padding: 22px 26px; } .auth-monogram { font-size: 65px; } .auth-aside > p { max-width: 230px; font-size: 23px; } .auth-panel { padding: 34px 26px 40px; } }

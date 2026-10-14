@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=DM+Serif+Display:ital@0;1&display=swap');
+
+:root {
+	font-family: 'DM Sans', 'Segoe UI', sans-serif;
+	color: #263631;
+	background: #f6f5f0;
+	font-synthesis: none;
+	text-rendering: optimizeLegibility;
+	--paper: #f6f5f0;
+	--surface: #fffefa;
+	--ink: #263631;
+	--muted: #748079;
+	--line: #dedfd7;
+	--forest: #20584c;
+	--forest-dark: #164439;
+	--coral: #d5684c;
+	--coral-soft: #f5e4dc;
+	--sky: #d9e9e5;
+	--gold: #c99642;
+	--serif: 'DM Serif Display', Georgia, serif;
+	--shadow: 0 14px 38px rgb(38 54 49 / 8%);
+	font-optical-sizing: auto;
+}
+
+* { box-sizing: border-box; }
+body { min-width: 320px; min-height: 100vh; margin: 0; }
+button, input, select, textarea { font: inherit; }
+button, a { -webkit-tap-highlight-color: transparent; }
+button { color: inherit; }
+a { color: inherit; text-decoration: none; }
+img { display: block; max-width: 100%; }
+::selection { color: white; background: var(--forest); }

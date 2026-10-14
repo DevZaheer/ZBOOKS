@@ -1,0 +1,5 @@
+.wishlist-tools { display: flex; align-items: center; justify-content: space-between; gap: 15px; margin: -12px 0 20px; }
+.wishlist-tools p { color: var(--muted); font-size: 12px; }
+.wishlist-card { min-width: 0; }
+.wishlist-card > .book-grid { display: block; }
+.remove-saved { margin-top: 9px; }
